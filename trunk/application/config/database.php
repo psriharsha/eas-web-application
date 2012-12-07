@@ -48,9 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'server42.000webhost.com';
-$db['default']['username'] = 'a3175918_admin';
-$db['default']['password'] = 'kingston12';
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
 $db['default']['database'] = 'eas';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
