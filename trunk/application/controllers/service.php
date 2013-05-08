@@ -194,6 +194,9 @@ class Service extends CI_Controller{
 	}
 	
 	public function showCareGivers(){
+		$care_givers_name = array();
+		$subsStatusC = array();
+		$permissionC = array();
 		$id['idUser'] = $this->input->get('userId');
 		$myData = $this->user->exists('users',$id)->result_array();
 		$care_givers = $this->user->exists('subscriptions',$id);
@@ -239,5 +242,20 @@ class Service extends CI_Controller{
 		$data['title'] = "Emergency Alarming System | Location";
 		$this->load->view('serviceLoc',$data);
 	}
-	
+	public function sendMail()
+	{
+		$to = "k1213328@kingston.ac.uk";
+		$msg = "Over";
+		$this->load->library('email');
+		
+		$this->email->from('prabhala56@gmail.com', 'harsha');
+		$this->email->to($to);
+		
+		$this->email->subject('Email Test');
+		$this->email->message('Testing the email class.');
+		
+		$this->email->send();
+		
+		echo $this->email->print_debugger();
+	}
 }
