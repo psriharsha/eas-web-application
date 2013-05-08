@@ -7,7 +7,7 @@ class Welcome extends CI_Controller {
 	{
 		if($this->session->userdata('username')!="")
 		{
-			redirect(base_url().'index.php/account/myaccount');
+			redirect(base_url().'index.php/Account/myaccount');
 		}
 		else{
 		$data['title'] = 'Emergency Alarming System | For senior Citizens';
