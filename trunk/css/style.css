@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	
+	background:url(../pics/bg.jpg);
+	font-family:'ABeeZee';
+}
+
+a{
+	text-decoration:none;
+}
+
+input[type=text],input[type=password]{
+	padding: 0.5em 10px 0.5em 10px;
+	text-align: center;
+	margin:0.25em;
+}
+
+input[type=text]:hover,input[type=password]:hover{
+	color:#000;
+}
+#container{
+	margin: -14px;
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	border:thin;
+	border-color:#CCC;
+	border-style:solid;
+	background:#ffffff;
+}
+
+.shadow{	
+	-moz-box-shadow: 5px 5px 5px #C0C0C0;
+-webkit-box-shadow: 5px 5px 5px #C0C0C0;
+}
+
+#header{
+	background:url(../pics/univ.jpg);
+	height:95px;
+	margin-top: -5px;
+	margin-left: -2px;
+	margin-right: -2px;
+	padding:10px;
+	text-align: center;
+}
+
+#register{
+	float:left;
+	color:#000;
+	border:thin;
+	border-style:solid;
+	border-color:#CCC;
+	margin-left:150px;
+	margin-bottom:30px;
+	padding:5px 20px 5px 20px;
+}
+
+#login{
+	float:right;
+	color:#000;
+	border:thin;
+	border-style:solid;
+	border-color:#CCC;
+	margin-right:150px;
+	margin-bottom:30px;
+	padding:5px 20px 5px 20px;
+}
+
+#register table th, #login table th{
+	color:#FFFFFF;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	background:#1994D0;
+	height:30px;
+}
+
+#footer{
+	clear:both;
+	background:#1994D0;
+	border-bottom-color:#1994D0;
+	border-bottom-style:solid;
+	border-bottom:hidden;
+	margin-left: -2px;
+	margin-right: -2px;
+	padding:30px 0px 30px;
+	color:#CFC;
+	font-size:13px;
+}
+
+.heading{
+	background:#CCC;
+	width:75%;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 5px 10px 5px 10px;
+	text-align:center;
+}
+
+.round{
+	-webkit-border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+}
+
+input[type="submit"], .special{
+	background:#CCC;
+	color:#000000;
+	width:80%;
+	padding:6px 0px 6px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+}
+
+#content{
+	margin-top:30px;
+}
+
+#tab_title ul li{
+	display:inline;
+	padding-left:15px;
+	padding-right:15px;
+	background:#1994D0;
+	color:#000;
+	padding-top:5px;
+	padding-bottom:5px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	}
+#tab_title ul li a{
+	color:#000;
+}
+#tab_title ul li a:hover{
+	color:#FFF;
+}
+#tab_content ul li{
+	display:block;
+	background:#FCC;
+	margin-top:-12px;
+	margin-right:35px;
+	padding-top:10px;
+	padding-bottom:8px;
+	padding-left:17px;
+	padding-right:17px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
+	line-height:20px;
+	text-align:justify;
+}
+
+#dynamic{
+	height:500px;
+}
+
+.content_table{
+	background:#ffffff;
+	width:100%;
+}
+
+.content_table th{
+	color:#ffffff;
+}
+
+.content_table tr td{
+	border-bottom:thin;
+	border-bottom-style:dotted;
+}
+
+.del{
+	color:red;
+}
+
+.logo{
+	padding: 0em 1em 1em 1em;
+}
+
+#errors{
+	background:#FF9;
+	text-align:center;
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	font-size:12px;
+	color:#F00;
+}
+
+#map_canvas { height: 500px;}
+
+#values{
+}
+
+#values table{
+	width : 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#values table tr td{
+	text-align: center;
+}
+
+#dialog{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+}
+
+#inviTable{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:25em;
+}
+
+#error_bg{
+	background:#F00;
+	color:#ffffff;
+}
+
+#addSubsDiv{
+	background:#33FF99;
+	color:#ffffff;
+	text-align:center;
+	margin:15px 15px 0 15px;
+	padding:5px 0 5px;
+}
+
+.formData{
+	background:#FF9;
+	width:100%;
+}
